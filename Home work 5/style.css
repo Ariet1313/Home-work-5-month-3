@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery img {
+    max-width: 200px;
+    max-height: 200px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#gallery img.enlarged {
+    transform: scale(2);
+    z-index: 1000;
+}
+
+
+
+
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+   margin: 20px;
+}
